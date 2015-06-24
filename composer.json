@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "IndesignColombia\\Phpgmaps\\": "src/Appitventures/Phpgmaps/"
+      "IndesignColombia\\Phpgmaps\\": "src/IndesignColombia/Phpgmaps/"
     }
   },
   "extra": {
