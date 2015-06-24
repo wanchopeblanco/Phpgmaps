@@ -1,5 +1,5 @@
 {
-  "name": "appitventures/phpgmaps",
+  "name": "indesigncolombia/phpgmaps",
   "description": "",
   "authors": [
     {
@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Appitventures\\Phpgmaps\\": "src/"
+      "IndesignColombia\\Phpgmaps\\": "src/"
     }
   },
   "extra": {

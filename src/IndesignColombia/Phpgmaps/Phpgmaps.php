@@ -1,4 +1,4 @@
-<?php  namespace Appitventures\Phpgmaps;
+<?php  namespace IndesignColombia\Phpgmaps;
 
 class Phpgmaps {
 
