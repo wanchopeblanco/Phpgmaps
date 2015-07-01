@@ -1,6 +1,8 @@
 ## Phpgmaps
 A none CI implementation of BIOINSTALL's [CodeIgniter library](http://github.com/BIOSTALL/CodeIgniter-Google-Maps-V3-API-Library).
 
+### This is a fork from the deleted repository of appitventures
+
 ---
 
 I found this library to be incredibly useful when I was working in CodeIgniter. However a little bit of work needed to be done to use it in a Laravel project. I can't take any of the credit for the actual "heavy lifting" going on in the class.
@@ -16,28 +18,28 @@ I found this library to be incredibly useful when I was working in CodeIgniter. 
 
 Add this package in your `composer.json` and update composer.
 
-For Laravel 4.\* use the below line. Please be aware that I only have the time to support the latest stable release of Laravel. So any future updates (features, security, or otherwise) will not be applied to the branch for laravel4 compatibility
-
-```php
-"appitventures/phpgmaps": "1.0.*@dev"
-```
-
 For Laravel 5.\* use the below line
  
 ```php
-"appitventures/phpgmaps": "2.0.*@dev"
+"indesigncolombia/phpgmaps"
+```
+
+Or run composer require
+
+```php
+composer require indesigncolombia/phpgmaps
 ```
 
 After updating composer, add the ServiceProvider to the providers array in `app/config/app.php`
 
 ```php
-'Appitventures\Phpgmaps\PhpgmapsServiceProvider',
+'IndesignColombia\Phpgmaps\PhpgmapsServiceProvider',
 ```
 
 And the Facade
 
 ```php
-'Gmaps' => 'Appitventures\Phpgmaps\Facades\Phpgmaps',
+'Gmaps' => 'IndesignColombia\Phpgmaps\Facades\Phpgmaps',
 ```
 
 ### Example 
